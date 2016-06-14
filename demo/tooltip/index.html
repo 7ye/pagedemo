@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+
+    <style type="text/css">
+        /*demo页面样式css，可删除*/
+        body {font-family: "Helvetica Neue","Helvetica","Lucida Grande","Arial","Hiragino Sans GB","Microsoft Yahei","WenQuanYi Micro Hei","sans-serif";color: #333;font-size: 14px;line-height: 1.75;}
+        a{color: #333;text-decoration: none}
+        a:hover{color: #969698}
+        .demo-img{padding: 20px;}
+        .demo-div{border: 1px solid #ccc;width: 1200px;margin: 0px auto;margin-top:30px;}
+        /*tip css*/
+        #tooltip { position: absolute; z-index: 9999; display: none; padding: 4px 8px; border: 1px solid rgba(255,255,255,0.25); border-radius: 3px; background-color: #000000; color: #fff; text-align: center; font-size: 12px; }
+        #tooltip:before { position: absolute; top: -6px; left: 15px; width: 0; height: 0; border: 6px dashed #000000; border-top: 0; color: #fff; content: ' '; line-height: 0; border-bottom-style: solid; border-left-color: transparent; border-right-color: transparent; }
+    </style>
+</head>
+<body>
+<div class="demo-div">
+    <div style="padding: 20px;">
+        <p>简介：</p>
+        <p>当您把鼠标移动到超链接的时候，这时就会浮动一个div描述一个链接的，且可以根据鼠标移动</p>
+        <p>兼容：IE8+、Google Chrome、Firefox、Opera</p>
+    </div>
+</div>
+<div class="demo-div">
+    <ul>
+        <li> <a href="#" title="这是第一行文字">这是第一行文字</a></li>
+        <li><a href="#" title="Advanced HTML5 Mobile App Framework.">Advanced HTML5 Mobile App Framework.</a></li>
+        <li><a href="#" title="JavaScript 工具库">JavaScript 工具库</a></li>
+        <li><a href="#" title="世界是Java构成的">世界是Java构成的</a></li>
+        <li><a href="#" title="美丽的前端">美丽的前端</a></li>
+    </ul>
+</div>
+
+<div  class="demo-div">
+    <img class="demo-img" src="http://i12.tietuku.com/bfa0f40ac58d81f2.jpg" title="点击查看原图" alt="4.png" border="0" width="15%">
+</div>
+</body>
+</html>
