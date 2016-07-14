@@ -1,40 +1,43 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Testpage by 7ye</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-	
-	<script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
-	<script type="text/javascript" src="js/7ye.github.io.js"></script>
-  </head>
-  <body>
+<html lang="zh-cn">
+    <head>
+        <meta charset="UTF-8">
+        <title>资源</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+        <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+        <script type="text/javascript" src="http://cdn.bootcss.com/jquery/1.11.1/jquery.js"></script>
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.24/vue.min.js"></script>
+        <script type="text/javascript" src="js/7ye.github.io.js"></script>
+    </head>
+<body>
     <section class="page-header">
-      <h1 class="project-name">My resources</h1>
-      <h2 class="project-tagline"></h2>
-      <a href="https://github.com/7ye/7ye.github.io" class="btn">View on GitHub</a>
-      <a href="https://github.com/7ye/7ye.github.io/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/7ye/7ye.github.io/tarball/master" class="btn">Download .tar.gz</a>
+        <h1 class="project-name">My resources</h1>
+        <h2 class="project-tagline"></h2>
+        <a href="https://github.com/7ye/resources" class="btn">View on GitHub</a>
+        <a href="https://github.com/7ye/7ye/resources/archive/gh-pages.zip" class="btn">Download .zip</a>
+        <a href="https://github.com/7ye/7ye/resources/archive/gh-pages.tar.gz" class="btn">Download .tar.gz</a>
     </section>
 	
 	<!-- 内容-->
     <section class="main-content">
-		
-		<a class="anchor" href="http://7ye.github.io/demo/guoduchuizhigundong" target="_blank" title="FSVS-jQuery和CSS3带过渡效果的全屏整页垂直滚动特效插件.">
-			<h3>FSVS-jQuery和CSS3带过渡效果的全屏整页垂直滚动特效插件.</h3>
-		</a>
-		<p>一个css整屏滚动插件</p>
-		
-		
-		<!-- footer -->
+		<ul id="navlist">
+            <template v-for="(index, item) in items">
+                <li>
+                    <a class="anchor" href="{{item.link}}" target="_blank" title="{{item.name}}">
+                        <div class="link-tag">{{item.tagline}}</div>
+                        <h3>{{item.name}}</h3>
+                    </a>
+                    <p>{{item.note}}</p>
+                </li>
+            </template>
+        </ul>
+        <!-- footer -->
 		<footer class="site-footer">
-			<span class="site-footer-owner">© 2015 <a href="http://7ye.github.io">sevennight</a></span>
-		</footer>
+            <span class="site-footer-owner">© 2016 <a href="http://7ye.github.io">sevennight's resources</a></span>
+        </footer>
     </section>
-	
-  </body>
+</body>
 </html>

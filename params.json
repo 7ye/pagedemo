@@ -1,14 +1,50 @@
-{
-  "name": "7ye.GitHub.io",
-  "tagline": "资源",
-<<<<<<< HEAD
-  "body": "首页",
-  "google": "什么什么什么什么",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
-=======
-  "body": "首页.",
-  "google": "什么什么什么什么",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
->>>>>>> origin/master
+[
+  {
+    "name": "canvas-nest背景特效",
+    "tagline": "前端资源",
+    "link": "demo/canvas-nest",
+    "note": "一个好看的canvas的背景特效"
+  },
+  {
+    "name": "FSVS-jQuery和CSS3带过渡效果的全屏整页垂直滚动特效插件.",
+    "tagline": "前端资源",
+    "link": "demo/guoduchuizhigundong",
+    "note": "一个css整屏滚动插件"
+  },
+  {
+    "name": "幻灯效果",
+    "tagline": "前端资源",
+    "link": "demo/huandeng",
+    "note": "大屏幻灯效果"
+  },
+  {
+    "name": "一个好看的登录页面",
+    "tagline": "前端资源",
+    "link": "demo/maotouyinglogin",
+    "note": "一个好看的登录页面，当输入密码的时候一个猫头鹰遮住了眼睛，离开密码框的时候又把手拿开的效果，这个场景及效果设计得很好."
+  },
+  {
+    "name": "鼠标移动到div放大效果",
+    "tagline": "前端资源",
+    "link": "demo/pictexiao",
+    "note": "当鼠标移动到div上的手背景变暗，div内的图片随之放大的效果."
+  },
+  {
+    "name": "鼠标tip效果",
+    "tagline": "前端资源",
+    "link": "demo/tooltip",
+    "note": "当鼠标移动到添加了tip事件的元素上，会跟随鼠标显示一个提示tip，支持很多种元素，适合用作文字显示不完全鼠标移动到元素上显示所有文字的效果"
+  },
+  {
+    "name": "猎豹浏览器宽屏banner焦点图代码",
+    "tagline": "前端资源",
+    "link": "demo/xiangyingjujiao",
+    "note": "猎豹浏览器宽屏banner焦点图代码"
+  },
+  {
+    "name": "兼容移动客户端banner切换焦点图swiper插件",
+    "tagline": "前端资源",
+    "link": "demo/yidong_bannerswiper",
+    "note": "移动端banner焦点图插件，支持手势滑动效果."
+  }
+]
