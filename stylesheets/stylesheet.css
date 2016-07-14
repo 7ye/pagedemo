@@ -314,6 +314,11 @@ li{
     font-size: 0.9rem;
   }
 }
+
+#navlist{
+  padding: 0px;
+  margin: 0px;
+}
 #navlist p {
   font-size:12px;
 }
@@ -326,7 +331,7 @@ li{
   vertical-align: middle;
 }
 #navlist li h3:hover{
-  color: #0E7341;
+  opacity: 0.7;
 }
 .link-tag{
   display: inline;
