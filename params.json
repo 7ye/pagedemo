@@ -46,5 +46,14 @@
     "tagline": "前端资源",
     "link": "demo/yidong_bannerswiper",
     "note": "移动端banner焦点图插件，支持手势滑动效果."
+  },
+  {
+    "name": "html5基于Canvas炫酷3D背景动画特效",
+    "tagline": "前端资源",
+    "link": "demo/vector",
+    "note": "模拟腾讯QQ下载主页大屏3D旋转背景，非常的炫."
   }
+  
+  
+  
 ]
