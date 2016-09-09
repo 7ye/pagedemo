@@ -1,5 +1,11 @@
 [
   {
+    "name": "三列均分布局",
+    "tagline": "前端资源",
+    "link": "demo/sanliejunfenbuju",
+    "note": "一个三列均分响应式布局的样式例子，适合做手机端项目时用"
+  },
+  {
     "name": "canvas-nest背景特效",
     "tagline": "前端资源",
     "link": "demo/canvas-nest",
