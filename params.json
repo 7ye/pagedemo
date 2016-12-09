@@ -1,5 +1,11 @@
 [
   {
+    "name": "css3加载效果",
+    "tagline": "前端资源",
+    "link": "demo/css3-custom-loading",
+    "note": "几种css3的加载状态效果"
+  },
+  {
     "name": "三列均分布局",
     "tagline": "前端资源",
     "link": "demo/sanliejunfenbuju",
@@ -58,8 +64,5 @@
     "tagline": "前端资源",
     "link": "demo/vector",
     "note": "模拟腾讯QQ下载主页大屏3D旋转背景，非常的炫."
-  }
-  
-  
-  
+  } 
 ]
