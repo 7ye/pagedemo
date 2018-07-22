@@ -1,4 +1,11 @@
 [
+	
+  {
+    "name": "ribbon",
+    "tagline": "前端资源",
+    "link": "demo/ribbonjs",
+    "note": "背景很绚丽的一个鼠标点击变换样式"
+  },
   {
     "name": "css3加载效果",
     "tagline": "前端资源",
